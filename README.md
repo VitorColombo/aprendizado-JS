@@ -4,3 +4,5 @@
  - Aprender o básico do uso do Bash;
  - Prática de Git/GitHub;
  - Criação de repositório para acompanhar estudos;
+
+testando readme comitado
