@@ -6,6 +6,39 @@
 
 body {
     background-image: url(https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     font-family: "Poppins", sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.7rem;
+    font-weight: bold;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.CD-el {
+    text-align: center;
+    font-size: 2rem;
+}
+.CD-el span {
+    font-size: 1.6rem;
+}
+
+.bigtext {
+    font-size: 7rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2.66rem;
+    margin-bottom: -0.5rem;
 }
