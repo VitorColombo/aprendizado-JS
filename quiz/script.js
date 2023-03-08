@@ -87,7 +87,8 @@ submitBtn.addEventListener('click', () => {
         if (questaoAtual < quizData.length){
             loadQuiz();
         } else{
-            respostaEls.innerHTML = '<h2>Você respondeu corretamente a ${pontuacao}/${quizData.lenght}</h2>'
+            quiz.innerHTML = '<h2>Você respondeu corretamente a ${pontuacao}/${quizData.lenght}</h2>'
+        
         } 
     }
 });
