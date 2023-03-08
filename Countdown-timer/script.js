@@ -4,7 +4,7 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 
-const dataFinal = "9 Mar 2023";
+const dataFinal = "29 Mar 2030";
 
 function contagem(){
     const diaViagem = new Date(dataFinal);
