@@ -43,6 +43,7 @@ const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
 const submitBtn = document.getElementById('submit');
 const respostaEls = document.querySelectorAll(".resposta");
+const quiz = document.getElementById("quiz");
 let resposta = undefined;
 let questaoAtual = 0;
 let pontuacao = 0;
@@ -86,7 +87,7 @@ submitBtn.addEventListener('click', () => {
         if (questaoAtual < quizData.length){
             loadQuiz();
         } else{
-            alert("You finished the Quiz!!!");
+            respostaEls.innerHTML = '<h2>Você respondeu corretamente a ${pontuacao}/${quizData.lenght}</h2>'
         } 
     }
 });
