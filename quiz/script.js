@@ -88,7 +88,6 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else{
             quiz.innerHTML = '<h2>Você respondeu corretamente a ' + pontuacao + '/' + quizData.length + ' das questões!</h2>';
-        
         } 
     }
 });
