@@ -53,12 +53,12 @@ loadQuiz();
 
 function loadQuiz() {
     tiraMarca();
-    const infoAtual = quizData[questaoAtual];
-    questaoEl.innerHTML = infoAtual.questao;
-    a_text.innerHTML = infoAtual.a;
-    b_text.innerHTML = infoAtual.b;
-    c_text.innerHTML = infoAtual.c;
-    d_text.innerHTML = infoAtual.d;
+        const infoAtual = quizData[questaoAtual];
+        questaoEl.innerHTML = infoAtual.questao;
+        a_text.innerHTML = infoAtual.a;
+        b_text.innerHTML = infoAtual.b;
+        c_text.innerHTML = infoAtual.c;
+        d_text.innerHTML = infoAtual.d;
 }
 
 function selecao(){
@@ -73,12 +73,12 @@ function selecao(){
 function tiraMarca(){
     respostaEls.forEach((respostaEls) =>{
         respostaEls.checked = false;
+        resposta = undefined;
     });
 }
 
 submitBtn.addEventListener('click', () => {
     const resposta = selecao();
-    console.log(resposta);
     if (resposta){
         if (resposta === quizData[questaoAtual].correto){
             pontuacao++;
