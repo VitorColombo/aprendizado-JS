@@ -50,7 +50,7 @@ h2{
     transition: .5s;
 }
 input:focus ~ label,
-input:valid ~ label{
+input:not(:placeholder-shown) ~ label{
 top: -5px;
 }
 .inputbox input {
